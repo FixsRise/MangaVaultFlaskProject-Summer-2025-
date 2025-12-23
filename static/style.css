@@ -1,0 +1,244 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #1e1e2f;
+    color: #fff;
+}
+
+header {
+    background-color: #3498db;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: white;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.upload-button {
+    margin: 20px auto 40px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover{
+
+    background-color: #44c1db;
+
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.manga-card {
+    position: relative;
+    width: 180px;
+    height: 280px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: transform 0.2s;
+}
+
+.manga-card:hover {
+    transform: scale(1.05);
+}
+
+.manga-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.manga-card .title {
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.delete-form {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+.delete-form button {
+    background: #e74c3c;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+body {
+    background-color: #1e1e2f;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.image-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.image-gallery img {
+    max-width: 80%;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+
+body {
+    background-color: white;
+    color: #333;
+}
+
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e67e22; 
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.main-header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: white; 
+}
+
+
+.upload-btn {
+    background-color: #e67e22;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.upload-btn:hover {
+    background-color: #cf5c0b;
+}
+
+.manga-card a {
+    text-decoration: none;       
+    color: #333;                 
+    font-weight: bold;          
+    transition: color 0.2s ease;
+}
+
+.manga-card a:hover {
+    color: #e67e22;             
+}
+
+.upload-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.upload-form {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 400px;
+}
+
+.upload-form h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.upload-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.upload-form input[type="text"],
+.upload-form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.upload-form button {
+    width: 100%;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.upload-form button:hover {
+    background-color: #44c1db;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: flex-start; /* Кнопки слева */
+    padding-left: 20px;          /* Отступ слева, чтобы не прилипали */
+    margin-top: 15px;            /* Отступ сверху, чтобы чуть ниже */
+    margin-bottom: 30px;         /* Отступ снизу от кнопок к заголовку */
+}
+
+.manga-view-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.manga-view-header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #2c3e50;
+}
+
+

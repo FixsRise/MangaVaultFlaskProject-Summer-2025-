@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="nav-buttons top-nav">
+        <a href="{{ url_for('index') }}" class="btn btn-back">← Back</a>
+    </div>
+
+    <div class="manga-view-header">
+        <h1>{{ title }}</h1>
+    </div>
+
+    <div class="image-gallery">
+        {% for file in files %}
+            <img src="{{ file }}" alt="Page {{ loop.index }}">
+        {% endfor %}
+    </div>
+
+    <div class="nav-buttons bottom-nav">
+        <a href="{{ url_for('index') }}" class="btn btn-back">← Back</a>
+    </div>
+
+</body>
+
+</html>

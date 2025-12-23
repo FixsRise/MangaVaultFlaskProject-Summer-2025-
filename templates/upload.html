@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <div class="nav-buttons top-nav">
+        <a href="{{ url_for('index') }}" class="btn btn-back">← Back</a>
+    </div>    
+    <title>Upload Manga</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="upload-container">
+        <form method="POST" enctype="multipart/form-data" class="upload-form">
+            <h1>Upload New Manga</h1>
+
+            <label for="title">Manga Title:</label>
+            <input type="text" name="title" required>
+
+            <label for="cover">Cover Image:</label>
+            <input type="file" name="cover" accept="image/*" required>
+
+            <label for="files">Upload Pages:</label>
+            <input type="file" name="files" multiple required>
+
+            <button type="submit">Upload</button>
+        </form>
+    </div>
+</body>
+
+</html>
